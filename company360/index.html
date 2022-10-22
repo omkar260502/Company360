@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Company360</title>
+    <!-- Required meta tags -->
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+  </head>
+  <body>
+    <div class="hero">
+      <div class="container">
+        <div class="indicator">
+          <span class="btnn active"></span>
+          <span class="btnn"></span>
+          <span class="btnn"></span>
+          <span class="btnn"></span>
+        </div>  
+        <div class="testimonial">
+          <div class="main" id="slide">
+            <div class="part">
+                <div class="subpart">
+                    <div class="subheading">
+                        <h2>Private Limited Company</h2>
+                    </div>
+                    <hr>
+                    <div class="price">
+                        <h2>Starting</h2>
+                        <h1>₹999</h1>
+                        <p><span class="tc">+ Govt Fees</span></p>
+                    </div>
+                    <div class="content">
+                        <p>The default for start-ups and growing businesses as only private limited companies can raise venture capital. This type of company offers limited liability for its shareholders with certain restrictions placed on the ownership. Private limited company registration, directors may be different from shareholders.</p>
+                        <br>
+                        <br>
+                        <a href="#">Know More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="part">
+                <div class="subpart">
+                    <div class="subheading">
+                        <h2>Limited Liability Partnership</h2>
+                    </div>
+                    <hr>
+                    <div class="price">
+                        <h2>Starting</h2>
+                        <h1>₹999</h1>
+                        <p><span class="tc">+ Statutory Fees</span></p>
+                    </div>
+                    <div class="content">
+                        <p>LLP was introduced to provide a form of business that is easy to maintain and to help owners by providing them with limited liability. Limited Liability Partnership Registration combines the benefits of a partnership with that of a limited liability company.</p>
+                        <br>
+                        <br>
+                        <a href="#">Know More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="part">
+                <div class="subpart">
+                    <div class="subheading">
+                        <h2>One Person Company</h2>
+                    </div>
+                    <hr>
+                    <div class="price">
+                        <h2>Starting</h2>
+                        <h1>₹5998</h1>
+                        <p>* All Inclusive</p>
+                    </div>
+                    <div class="content">
+                        <p>The best structure for solo entrepreneurs looking beyond the opportunities a sole proprietorship affords. Here, a single promoter gains full authority over the company, restricting his/her liability towards their contributions to the enterprise. The said person will be the sole shareholder and director.</p>
+                        <br>
+                        <br>
+                        <a href="#">Know More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="part">
+                <div class="subpart">
+                    <div class="subheading">
+                        <h2>Private Limited Company</h2>
+                    </div>
+                    <hr>
+                    <div class="price">
+                        <h2>Starting</h2>
+                        <h1>₹999</h1>
+                        <p><span class="tc">+ Statutory Fees</span></p>
+                    </div>
+                    <div class="content">
+                        <p>A business structure in which two or more individuals manage a business per the terms in Partnership Deed. It's best suitable for home businesses that are unlikely to take any debt due to low cost, ease of setting up and minimal compliance requirements.</p>
+                        <br>
+                        <br>
+                        <a href="#">Know More</a>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+        var btnn = document.getElementsByClassName("btnn");
+        var slide = document.getElementsById("slide");
+
+        btnn[0].onclick = function(){
+            slide.style.transform = "translateX(0px)";
+            for(i=0;i<4;i++){
+                btnn[i].classList.remove("active");
+            }
+            this.classList.add("active");
+        }
+        btnn[1].onclick = function(){
+            slide.style.transform = "translateX(400px)";
+            for(i=0;i<4;i++){
+                btnn[i].classList.remove("active");
+            }
+            this.classList.add("active");
+        }
+        btnn[2].onclick = function(){
+            slide.style.transform = "translateX(800px)";
+            for(i=0;i<4;i++){
+                btnn[i].classList.remove("active");
+            }
+            this.classList.add("active");
+        }
+        btnn[3].onclick = function(){
+            slide.style.transform = "translateX(1200px)";
+            for(i=0;i<4;i++){
+                btnn[i].classList.remove("active");
+            }
+            this.classList.add("active");
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
